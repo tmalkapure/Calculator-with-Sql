@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Tutorial</title>
+  </head>
+  <body>
+	<h1 class="logo">First Web App</h1>
+	<strong><nav>
+	<h1> Calculator </h1>
+	<form action="{{ url_for("salvador")}}" method="post">
+	<label for="calculator"> Addition-1,Subtraction-2,multiplication-3,Division-4:</label>
+	<input type="text" id="kvalue" name="intvalue" placeholder="value">
+	<label for="xvalue">X Value:</label>
+	<input type="text" id="firstname" name="num1" placeholder="value">
+	<label for="yvalue">Y Value:</label>
+	<input type="text" id="lastname" name="num2" placeholder="value">
+	<button type="submit">Result</button>
+	</body>
+</html>
